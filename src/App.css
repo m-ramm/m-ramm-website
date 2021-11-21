@@ -38,6 +38,10 @@
   }
 }
 
+.main-section {
+  margin-left: 200px;
+}
+
 nav {
   display: flex;
   flex-direction: column;
