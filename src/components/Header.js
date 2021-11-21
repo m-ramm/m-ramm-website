@@ -8,7 +8,7 @@ function Header( {text} ) {
 }
 
 Header.defaultProps = {
-    text: 'hello',
+    text: 'Header',
 }
 
 export default Header
