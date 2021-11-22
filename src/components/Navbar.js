@@ -5,7 +5,9 @@ const Navbar = () => {
         <nav>
             <Navlink text='Home' link='/' icon='home' />
             <Navlink text='Projects' link='/projects' icon='description' />
-            <Navlink />
+            <div id="nav-footer">
+                <Navlink text='Contact Me' link='/contact' icon='mail' style={{textDecoration:'none', position:'absolute', bottom: 0}} />
+            </div>
         </nav>
     );
 }

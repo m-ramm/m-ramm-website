@@ -4,6 +4,7 @@ import Header from './components/Header.js'
 import Navbar from './components/Navbar.js'
 import Home from './components/Home.js'
 import Projects from './components/Projects.js'
+import Contact from './components/Contact.js'
 
 import {
   BrowserRouter as Router,
@@ -14,19 +15,15 @@ import {
 function App() {
   return (
     <Router>
-      <Navbar />
       <div className='main-section'>
-        <Header />
+        <Navbar />
+        {/* <Header /> */}
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      
-      
-      
-      
-      
     </Router>
   );
 }
