@@ -1,7 +1,11 @@
+import Card from './Card.js'
 
 const Projects = () => {
     return (
-        <h1>Projects</h1>
+        <div>
+            <h1 className='appear'>Projects</h1>
+            <Card />
+        </div>
     )
 }
 

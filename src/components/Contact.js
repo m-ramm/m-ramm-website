@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <h1>
+        <h1 className='appear'>
             Contact
         </h1>
     )
