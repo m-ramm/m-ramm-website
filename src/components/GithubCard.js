@@ -7,9 +7,10 @@ const GithubCard = ( { imagePath, goto, text, fade } ) => {
         </a>
     )
 }
-// make sure to style as fixed in top right corner
+
 GithubCard.defaultProps = {
     imagePath: 'favicon.ico',
+    goto: 'https://github.com/m-ramm',
     text: 'link',
     fade:'contact-card fade-in-bottom'
 }

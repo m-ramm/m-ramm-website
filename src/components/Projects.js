@@ -2,9 +2,12 @@ import Card from './Card.js'
 
 const Projects = () => {
     return (
-        <div>
-            <h1 className='appear'>Projects</h1>
-            <Card />
+        <div style={{overflowY:'auto'}}>
+            <h1 className='appear' style={{marginBottom:'50px'}}>Projects</h1>
+            <div className='container'>
+                <Card fade='card fade-in-bottom'/>
+                <Card fade='card fade-in-bottom-medium'/>  
+            </div>
         </div>
     )
 }
